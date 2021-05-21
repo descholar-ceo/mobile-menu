@@ -6,22 +6,22 @@ const fullMenuOption = document.querySelectorAll('#full-menu-option');
 
 menuToggle.addEventListener('click', () => {
   fullScreenMenu.classList.remove('is-hidden');
-  mainElt.forEach(curr=>{
+  mainElt.forEach((curr) => {
     curr.classList.add('is-hidden');
   });
 });
 
-closeFullScreenMenuBtn.addEventListener('click', event => {
+closeFullScreenMenuBtn.addEventListener('click', () => {
   fullScreenMenu.classList.add('is-hidden');
-  mainElt.forEach(curr=>{
+  mainElt.forEach((curr) => {
     curr.classList.remove('is-hidden');
   });
 });
 
-fullMenuOption.forEach(curr=>{
-  curr.addEventListener('click', ()=>{
+fullMenuOption.forEach((curr) => {
+  curr.addEventListener('click', () => {
     fullScreenMenu.classList.add('is-hidden');
-    mainElt.forEach(curr=>{
+    mainElt.forEach((curr) => {
       curr.classList.remove('is-hidden');
     });
   });
