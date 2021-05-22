@@ -577,6 +577,10 @@ textarea {
   margin-top: 4rem;
 }
 
+.btn-close {
+  border: none;
+}
+
 .is-hidden {
   display: none;
 }
