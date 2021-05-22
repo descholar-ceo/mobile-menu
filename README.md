@@ -2,70 +2,25 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+![screenshot](./scrn.png)
 
-> One paragraph statement about the project.
-
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+In this project I built a mobile menu of a portifolio, and I have used javascript to make interactions with buttons to work
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
+- HTML5 && CSS3
+- Javascript (ES6 syntax)
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
+Since this is an HTML && CSS project, then gettong it and running it is very simple:
+clone this repo by typing `git clone https://github.com/descholar-ceo/mobile-menu` after that open the `index.html` file in the browser of your choice, make it in mobile version and click the hmburger icon, see what happens, that's what I did!
 ## Authors
 
-👤 **Author1**
+👤 **Mugirase Emmanuel**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
+- GitHub: [@descholar-ceo](https://github.com/descholar-ceo)
+- Twitter: [@descholar3](https://twitter.com/descholar3)
+- LinkedIn: [Mugirase Emmanuel](https://linkedin.com/in/mugirase-emmanuel)
 
 ## Acknowledgments
 
