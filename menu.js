@@ -11,18 +11,15 @@ menuToggle.addEventListener('click', () => {
   });
 });
 
-closeFullScreenMenuBtn.addEventListener('click', () => {
+const closeMenu = () => {
   fullScreenMenu.classList.add('is-hidden');
   mainElt.forEach((curr) => {
     curr.classList.remove('is-hidden');
   });
-});
+};
+
+closeFullScreenMenuBtn.addEventListener('click', () => closeMenu());
 
 fullMenuOption.forEach((curr) => {
-  curr.addEventListener('click', () => {
-    fullScreenMenu.classList.add('is-hidden');
-    mainElt.forEach((curr) => {
-      curr.classList.remove('is-hidden');
-    });
-  });
+  curr.addEventListener('click', () => closeMenu());
 });
